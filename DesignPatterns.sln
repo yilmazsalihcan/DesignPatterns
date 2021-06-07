@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{8F7921E6-11DD-4BA2-9799-81E3C8C3A0DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{8F7921E6-11DD-4BA2-9799-81E3C8C3A0DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{7C418937-00E4-4F0F-A1B1-9B7AB3F1BA46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{7C418937-00E4-4F0F-A1B1-9B7AB3F1BA46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{EE7826FA-C4D9-4E9C-9253-FC58C4D0A6EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7C418937-00E4-4F0F-A1B1-9B7AB3F1BA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C418937-00E4-4F0F-A1B1-9B7AB3F1BA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C418937-00E4-4F0F-A1B1-9B7AB3F1BA46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE7826FA-C4D9-4E9C-9253-FC58C4D0A6EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7826FA-C4D9-4E9C-9253-FC58C4D0A6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7826FA-C4D9-4E9C-9253-FC58C4D0A6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7826FA-C4D9-4E9C-9253-FC58C4D0A6EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
